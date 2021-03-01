@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Oxanium';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url(fonts/Oxanium-normal-300.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+
+@font-face {
+	font-family: 'Oxanium';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url(fonts/Oxanium-normal-600.woff) format('woff');
+	unicode-range: U+0-10FFFF;
+}
+

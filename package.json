@@ -1,5 +1,5 @@
 {
-    "name": "ruby",
+    "name": "ruby-klarmarx",
     "description": "A Ghost theme",
     "version": "1.0.0",
     "engines": {
@@ -7,11 +7,11 @@
         "ghost-api": "v3"
     },
     "license": "MIT",
-        "author": {
-            "name": "Ghost Foundation",
-            "email": "hello@ghost.org",
-            "url": "https://ghost.org"
-        },
+    "author": {
+        "name": "Ghost Foundation",
+        "email": "hello@ghost.org",
+        "url": "https://ghost.org"
+    },
     "keywords": [
         "ghost",
         "theme",
@@ -41,6 +41,7 @@
         }
     },
     "scripts": {
+        "build": "gulp build",
         "dev": "gulp",
         "test": "gscan .",
         "test:ci": "gscan --fatal --verbose .",
@@ -54,6 +55,7 @@
         "gscan": "3.6.1",
         "gulp": "4.0.2",
         "gulp-concat": "2.6.1",
+        "gulp-google-webfonts": "^4.0.0",
         "gulp-livereload": "4.0.2",
         "gulp-postcss": "9.0.0",
         "gulp-stylelint": "13.0.0",
@@ -65,5 +67,8 @@
         "stylelint": "13.11.0",
         "stylelint-config-standard": "20.0.0",
         "stylelint-order": "4.1.0"
+    },
+    "dependencies": {
+        "jquery": "^3.5.1"
     }
 }
